@@ -1,0 +1,393 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+html {
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #dd8a1d;
+}
+
+#intro {
+    background: url(snowboard3.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 58% 0%;
+    opacity: 0.8;
+}
+
+#navBar {
+    font-size: x-large;
+}
+
+.navbar-toggler {
+    background-color: #000000 !important;
+    border-radius: 5%;
+    border: 0px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-selected {
+    color: #dd8a1d !important;
+}
+
+.scrollDownIconBox {
+    position: absolute;
+    top: 92%;
+    justify-content: center;
+    left: 50%;
+    padding: 0.5rem;
+    background: rgba(237, 250, 238, 0.07);
+    backdrop-filter: blur( 2.0px);
+    -webkit-backdrop-filter: blur( 2.0px);
+    border-radius: 10px;
+}
+
+.scrollDownIcon {
+    color: #ffffff;
+    position: relative;
+}
+
+#fullPageContent {
+    top: 32%;
+    position: absolute;
+    backdrop-filter: blur( 2px);
+    -webkit-backdrop-filter: blur( 2px);
+    border-radius: 60px;
+    padding: 25px;
+}
+
+#ContentFullPage {
+    border-bottom: 1px solid white;
+}
+
+#ContentIcon {
+    border-bottom: 1px solid black;
+}
+
+#images {
+    border-bottom: 1px solid white;
+}
+
+#carousel {
+    border-bottom: 1px solid black;
+}
+
+#boxContent {
+    border: 5px solid white;
+}
+
+#contentBox {
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    color: #dd8a1d;
+}
+
+h4 {
+    color: #dd8a1d;
+}
+
+#heading {
+    font-weight: 600;
+    color: #dd8a1d;
+}
+
+#startButton {
+    background-color: #dd8a1d;
+}
+
+#navSites {
+    color: #f8f8f8;
+    font-size: 100%;
+}
+
+#content1 {
+    text-align: center;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.contentBestPictures {
+    overflow: hidden;
+}
+
+
+/* Kurse */
+
+#contentKurse {
+    margin-top: 12vh;
+}
+
+#headlineKurse {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#textKurs {
+    text-align: center;
+}
+
+#sectionKurse {
+    border-bottom: 1px solid white;
+}
+
+#angebotKurse {
+    text-align: center;
+}
+
+
+/* Über Uns */
+
+#pictureUber {
+    padding: 10%;
+}
+
+
+/* 
+@media only screen and (min-width: 200px) {
+   #navBar{
+       position: fixed;
+       top: auto;
+   }
+}  */
+
+#navBar {
+    background-color: #000000 !important;
+    box-shadow: 2px 2px 3px #f8f8f8;
+}
+
+@media only screen and (min-width: 300px) {
+    #heading {
+        font-size: 250%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #heading {
+        font-size: 320%;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    #heading {
+        font-size: 400%;
+    }
+    /* Darunter Transparenz möglich wenn Scroll Effekte möglich
+    sonst kein passender Layer im Hintergrund der Navigation  */
+    #navBar {
+        /* background-color: transparent !important; */
+        background-color: black !important;
+        border-bottom: 0px #f8f8f8 solid !important;
+    }
+    #navbarCollapse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    .uberPic {
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #footerUber {
+        top: 100%;
+        position: sticky;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #heading {
+        font-size: 520%;
+    }
+    p {
+        font-size: larger;
+    }
+    #slogan {
+        font-size: xx-large;
+    }
+    .uberPic {
+        margin-top: 1rem;
+    }
+    .sectionImgBig {
+        padding: 1.5rem 10rem 3rem 10rem !important;
+    }
+    .containerUberPic {
+        padding: 0rem 0rem 0rem 0rem !important;
+    }
+    .contentKursPic {
+        padding: 2rem 5rem 0rem 5rem !important;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    #footerUber {
+        top: 100%;
+        position: sticky;
+    }
+    #intro {
+        background-position: 55% 67%;
+    }
+}
+
+@media only screen and (min-width: 2220px) {
+    .row {
+        margin-top: 7% !important;
+    }
+    .containerUberPic {
+        padding: 2rem 3rem 0rem 3rem !important;
+        margin-left: 5rem;
+    }
+}
+
+
+/* Animations */
+
+
+/* Reiteruntersstriche  */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-4em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#fullPageContent,
+#kurseContent,
+.uberContent {
+    animation: fadeIn 2s forwards;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+
+
+/* Content Animation */
+
+
+/* #ContentFullPage{
+    transition: 0.8s; 
+ }
+ #ContentFullPage:hover{
+    transform: scale(1.05);
+ } */
+
+
+/* .bestIconCard{
+   transition: 0.4s; 
+}
+.bestIconCard:hover{
+   transform: scale(1.1);
+} */
+
+.bestPictures {
+    transition: 0.4s;
+}
+
+.bestPictures:hover {
+    transform: scale(1.1);
+}
+
+
+/* #boxContent{
+    transition: 0.4s;  
+}
+#boxContent:hover{
+    transform: scale(1.1);
+    box-shadow: rgb(224, 217, 217) 0px 3px 7px 0px;
+ } */
+
+.sectionImgBig {
+    transition: 0.4s;
+}
+
+.sectionImgBig:hover {
+    transform: scale(1.05);
+}
+
+#angebotKurse {
+    transition: 0.4s;
+}
+
+#angebotKurse:hover {
+    transform: scale(1.15);
+    /* box-shadow: 0px 7px 8px 7px white ; */
+}
+
+.uberPic {
+    transition: 0.4s;
+}
+
+.uberPic:hover {
+    transform: scale(1.1);
+}
+
+#textKurs {
+    transition: 0.4s;
+}
+
+#textKurs:hover {
+    transform: scale(1.1);
+}
+
+
+/* Scroll Down Animation */
+
+.scrollDownIconBox:hover {
+    background-image: linear-gradient(120deg, #f6d365, #dd8a1d);
+    transition: all 1s ease;
+    border-radius: 50%;
+}
+
+
+/* Button Animation */
+
+#startButton:hover {
+    background-color: rgb(243, 162, 55);
+    color: white;
+}
+
+.cardStyle {
+    background-color: #000000;
+}
