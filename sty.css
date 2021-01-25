@@ -5,13 +5,8 @@ header,
     height: 100%;
 }
 
-<<<<<<< HEAD
 html {
     background-color: #000000;
-=======
-html{
-    background-color: #fff3e6;
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
     overflow-x: hidden;
 }
 
@@ -20,7 +15,6 @@ body {
 }
 
 body::-webkit-scrollbar {
-<<<<<<< HEAD
     width: 0.4rem;
 }
 
@@ -34,22 +28,6 @@ body::-webkit-scrollbar-thumb {
 
 #intro {
     background: url(schuhe1.0.jpg) no-repeat center;
-=======
-    width: 0.5rem;
-  }
-  body::-webkit-scrollbar-track {
-    background: #1e1e24;
-  }
-  body::-webkit-scrollbar-thumb {
-    background: #fff3e6;
-  }
-  nav{
-      background-color: #fff3e6 !important;
-  }
-
-#intro{
-    background: url(boxwater.jpg) no-repeat center ;
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,33 +38,19 @@ body::-webkit-scrollbar-thumb {
 #navBar {
     font-size: x-large;
 }
-<<<<<<< HEAD
 
 .navbar-toggler {
     background-color: #000000 !important;
-=======
-.navbar-toggler{
-    background-color: #1a508b !important;
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
     border-radius: 5%;
     border: 0px;
 }
 
-<<<<<<< HEAD
 .nav-link {
     color: white !important;
 }
 
 .nav-selected {
     color: #75e7ba !important;
-=======
-
-.nav-link{
-    color: #1a508b !important;
-}
-.nav-selected{
-    color: #a57440 !important;
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
 }
 
 .scrollDownIconBox {
@@ -114,21 +78,10 @@ body::-webkit-scrollbar-thumb {
 
 #ContentFullPage {
     border-bottom: 1px solid white;
-<<<<<<< HEAD
 }
 
 #ContentIcon {
     border-bottom: 1px solid black;
-=======
-    background: rgba( 255, 255, 255, 0.35 );
-    backdrop-filter: blur( 8.0px );
-    -webkit-backdrop-filter: blur( 8.0px );
-    border-radius: 30px;
-   
-}
-#ContentIcon{
-    border-bottom: 1px solid white;
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
 }
 
 #images {
@@ -138,7 +91,6 @@ body::-webkit-scrollbar-thumb {
 #carousel {
     border-bottom: 1px solid black;
 }
-<<<<<<< HEAD
 
 #boxContent {
     border: 5px solid white;
@@ -160,41 +112,6 @@ h4 {
 
 #startButton {
     background-color: #75e7ba;
-=======
-#boxContent{
-    background: rgba( 255, 255, 255, 0.35 );
-    backdrop-filter: blur( 8.0px );
-    -webkit-backdrop-filter: blur( 8.0px );
-    border-radius: 10px;
-}
-#contentBox{
-     /* border-bottom: 1px solid white; */
-}
-.bestIconCard{
-    background: rgba( 255, 255, 255, 0.35 );
-    backdrop-filter: blur( 8.0px );
-    -webkit-backdrop-filter: blur( 8.0px );
-    border-radius: 10px;
-    padding: 10px;
-}
-.boxblur{
-    backdrop-filter: blur( 8.0px );
-        -webkit-backdrop-filter: blur( 8.0px );
-}
-h2,h4{
-    color:  #ffbf7b;
-}
-#heading{
-    font-weight: 600;
-    color:  #fff3e6;
-}
-p{
-    color: black;
-}
-#startButton{
-    background-color: #fff3e6;
-
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
 }
 
 #navSites {
@@ -274,36 +191,11 @@ button.bg-dark:hover {
     background-color: #000000!important;
 }
 
-<<<<<<< HEAD
-=======
-#navBar{
-    background-color: #fff3e6 !important;
-    box-shadow: 2px 2px 3px #f8f8f8;
-    }
-a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
-    background-color: #1a508b!important;
-    border: #1e1e24;
-    }
- 
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
 @media only screen and (min-width: 300px) {
     #heading {
         font-size: 250%;
     }
-<<<<<<< HEAD
 }
-=======
-    #fullPageContent{
-        backdrop-filter: blur( 8.0px );
-        -webkit-backdrop-filter: blur( 8.0px );
-        border-radius: 30px;
-        padding: 20px;
-    }
-    .dark-blue-c{
-        color: #0d335d;
-    }
-} 
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
 
 @media only screen and (min-width: 500px) {
     #heading {
@@ -332,7 +224,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     .uberPic {
         margin-top: 3rem;
     }
-<<<<<<< HEAD
     .scrollDownIconBox {
         left: 50%;
     }
@@ -343,28 +234,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
         top: 100%;
         position: sticky;
     }
-=======
-    .nav-link{
-        color: white !important;
-    }
-.dark-blue-c{
-    color: white;
-    }
-    .scrollDownIconBox{
-        left: 50%;
-    }
-} 
-@media only screen and (min-width: 1000px){
-    #footerUber{
-        top: 100%;
-        position: sticky;
-    }
-    #fullPageContent{
-        backdrop-filter: blur( 0.0px );
-        -webkit-backdrop-filter: blur( 0.0px );
-    }
-
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
 }
 
 @media only screen and (min-width: 1200px) {
@@ -510,14 +379,9 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 
 
 /* Scroll Down Animation */
-<<<<<<< HEAD
 
 .scrollDownIconBox:hover {
     background-image: linear-gradient(120deg, #f6d365, #75e7ba);
-=======
-.scrollDownIconBox:hover{
-    background-image: linear-gradient(120deg, #f6d365, #fff3e6) ;
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
     transition: all 1s ease;
     border-radius: 50%;
 }
@@ -528,24 +392,4 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 #startButton:hover {
     background-color: #ffdfbd;
     color: white;
-<<<<<<< HEAD
 }
-=======
-  }
-
-.dark-blue{
-    background-color: #0d335d;
-  }
-.frozen-blue{
-    background-color: #1a508b;
-}
-.violet{
-    background-color: #c1a1d3;
-}
-.beige{
-    background-color: #fff3e6;
-}
-.dark-beige{
-    background-color: #ffdfbd;
-}
->>>>>>> be3863959d286acbb6930357fa2d273d49dd3ddb
