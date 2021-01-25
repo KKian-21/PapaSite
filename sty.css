@@ -73,7 +73,6 @@ body::-webkit-scrollbar-thumb {
 #fullPageContent {
     top: 30%;
     position: absolute;
-    right: 8%;
 }
 
 #ContentFullPage {
@@ -390,6 +389,10 @@ button.bg-dark:hover {
 /* Button Animation */
 
 #startButton:hover {
-    background-color: #ffdfbd;
+    background-color: #36bd90;
     color: white;
+}
+
+footer {
+    background-color: white;
 }
