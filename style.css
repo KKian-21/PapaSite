@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 92%;
     justify-content: center;
-    left: 50%;
+    left: 45%;
     padding: 0.5rem;
     background: rgba(237, 250, 238, 0.07);
     backdrop-filter: blur( 2.0px);
