@@ -395,8 +395,7 @@ h4 {
 .your-element {
     height: 300px;
     width: 400px;
-    /* background-image: linear-gradient(#677770, #756775); */
-    background-color: #7e2121;
+    background-image: linear-gradient(#677770, #756775);
     position: relative;
 }
 
